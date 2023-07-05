@@ -1,5 +1,6 @@
 package reqres;
 
+import com.google.gson.annotations.SerializedName;
 import lombok.Builder;
 import lombok.Data;
 
@@ -8,5 +9,8 @@ import lombok.Data;
 public class User {
     private String name;
     private String job;
+    private String email;
+    private String password;
+
 
 }
